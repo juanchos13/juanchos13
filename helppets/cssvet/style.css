@@ -1,0 +1,28 @@
+.card{background-color: black;
+color: white;
+padding: 1em;
+border: 1px solid black;
+border-radius: 10px;}
+.card:hover{
+    background-color: rgb(158, 158, 158);
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(184, 43, 43);}
+.cards-title{font-size: 25px;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;}
+.parrafo{font-size: 18px;text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cards-cointeiner {display: grid;
+    gap: 1em;
+}
+.title-cards-cointeiner{background-color: black; color: white;padding: 1.2em .5em;
+margin: 0;text-align: center;}
+
+@media(min-width 992px){
+
+.cards-coiteiner{grid-template-columns: 1fr 1fr 1fr;}
+}
+
+
