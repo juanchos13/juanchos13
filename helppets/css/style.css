@@ -12,9 +12,14 @@ p{font-size: 40px;
 text-align: center;}
 .contenedor{list-style-type: none;padding: 0%;flex-direction: column; width: 100%;}
 .contenedor li{font-size: 35px;font-family: 'Times New Roman', Times, serif;
- background-color: blueviolet;width: 100%;}
+ background-color: blueviolet;width: 100%;
+border: 1px solid;}
+.contenedor li{justify-content: space-around;}
+ .vet{color: white;}
  .contenedor li{border: 2px black solid;}
  .contenedor li{padding: 1em; text-decoration: none;}
+ .img2{word-wrap: normal;padding-block:  ;}
+ .img3{word-wrap: break-word;}
 body{ background-color: aqua;}
 h2{color:blue ;
 font-size: 40px;
